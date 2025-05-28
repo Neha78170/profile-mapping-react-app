@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Neha Sharma",
+    "photo": "https://randomuser.me/api/portraits/women/1.jpg",
+    "description": "neha.sharma@example.com",
+    "address": "Delhi",
+    "location": { "lat": 28.6139, "lng": 77.2090 }
+  },
+  {
+    "id": 2,
+    "name": "Rahul Mehta",
+    "photo": "https://randomuser.me/api/portraits/men/2.jpg",
+    "description": "rahul.mehta@example.com",
+    "address": "Mumbai",
+    "location": { "lat": 19.076, "lng": 72.8777 }
+  },
+  {
+    "id": 3,
+    "name": "Pooja Verma",
+    "photo": "https://randomuser.me/api/portraits/women/3.jpg",
+    "description": "pooja.verma@example.com",
+    "address": "Jaipur",
+    "location": { "lat": 26.9124, "lng": 75.7873 }
+  },
+  {
+    "id": 4,
+    "name": "Aman Gupta",
+    "photo": "https://randomuser.me/api/portraits/men/4.jpg",
+    "description": "aman.gupta@example.com",
+    "address": "Kolkata",
+    "location": { "lat": 22.5726, "lng": 88.3639 }
+  },
+  {
+    "id": 5,
+    "name": "Simran Kaur",
+    "photo": "https://randomuser.me/api/portraits/women/5.jpg",
+    "description": "simran.kaur@example.com",
+    "address": "Chandigarh",
+    "location": { "lat": 30.7333, "lng": 76.7794 }
+  },
+  {
+    "id": 6,
+    "name": "Rohit Singh",
+    "photo": "https://randomuser.me/api/portraits/men/6.jpg",
+    "description": "rohit.singh@example.com",
+    "address": "Lucknow",
+    "location": { "lat": 26.8467, "lng": 80.9462 }
+  },
+  {
+    "id": 7,
+    "name": "Priya Yadav",
+    "photo": "https://randomuser.me/api/portraits/women/7.jpg",
+    "description": "priya.yadav@example.com",
+    "address": "Bhopal",
+    "location": { "lat": 23.2599, "lng": 77.4126 }
+  },
+  {
+    "id": 8,
+    "name": "Karan Joshi",
+    "photo": "https://randomuser.me/api/portraits/men/8.jpg",
+    "description": "karan.joshi@example.com",
+    "address": "Ahmedabad",
+    "location": { "lat": 23.0225, "lng": 72.5714 }
+  },
+  {
+    "id": 9,
+    "name": "Anjali Desai",
+    "photo": "https://randomuser.me/api/portraits/women/9.jpg",
+    "description": "anjali.desai@example.com",
+    "address": "Surat",
+    "location": { "lat": 21.1702, "lng": 72.8311 }
+  },
+  {
+    "id": 10,
+    "name": "Vikram Nair",
+    "photo": "https://randomuser.me/api/portraits/men/10.jpg",
+    "description": "vikram.nair@example.com",
+    "address": "Bangalore",
+    "location": { "lat": 12.9716, "lng": 77.5946 }
+  }
+]
