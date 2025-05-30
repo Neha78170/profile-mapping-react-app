@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 import ProfileCard from "../Components/ProfileCard";
 import dummyProfiles from "../Data/Profiles.json";
-import Loader from "../Components/Loader"
+import Loader from "../Components/Loader";
+import MapView from "../Components/MapView"; 
 
 const Home = () => {
   const [profiles, setProfiles] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [isLoading, setIsLoading] = useState(true);
+  const [selectedProfile, setSelectedProfile] = useState(null); 
 
   useEffect(() => {
     const loadProfiles = () => {
@@ -36,7 +38,8 @@ const Home = () => {
   }, []);
 
   const handleSummaryClick = (profile) => {
-    console.log("Summary clicked for", profile.name);
+    setSelectedProfile(profile); // ✅ fixed typo
+    console.log(profile);
   };
 
   const filteredProfiles = profiles.filter((profile) =>
@@ -57,7 +60,7 @@ const Home = () => {
       />
 
       {isLoading ? (
-        <Loader/>
+        <Loader />
       ) : filteredProfiles.length === 0 ? (
         <p className="text-center text-gray-400">No profiles found.</p>
       ) : (
@@ -69,6 +72,15 @@ const Home = () => {
               onSummaryClick={handleSummaryClick}
             />
           ))}
+        </div>
+      )}
+
+      {selectedProfile && (
+        <div className="mt-6">
+          <h2 className="text-xl text-center mb-2">
+            Location for {selectedProfile.name}
+          </h2>
+          <MapView location={selectedProfile.location} /> 
         </div>
       )}
     </div>
